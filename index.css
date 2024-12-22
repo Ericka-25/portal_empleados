@@ -1,0 +1,103 @@
+/* Estilos globales */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Celeste claro para el fondo */
+    color: #000; /* Negro para el texto */
+  }
+  
+  /* Títulos */
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 10px;
+    color: #003366; /* Azul oscuro */
+    font-weight: bold;
+  }
+  
+  /* Enlaces */
+  a {
+    text-decoration: none;
+    color: #00509e; /* Azul más intenso */
+  }
+  
+  a:hover {
+    color: #003366; /* Cambia a azul oscuro al pasar el mouse */
+  }
+  
+  /* Listas */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Botones */
+  button {
+    background-color: #00509e; /* Azul intenso */
+    color: #fff; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #003366; /* Azul oscuro al pasar el mouse */
+  }
+  
+  /* Input Fields */
+  input {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  input:focus {
+    border-color: #00509e; /* Azul intenso */
+    outline: none;
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #003366; /* Azul oscuro */
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul li a {
+    color: #fff; /* Blanco para los enlaces */
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #f0f8ff; /* Celeste claro al pasar el mouse */
+  }
+  
+  /* Contenedor Principal */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #003366; /* Azul oscuro */
+    color: #fff; /* Blanco */
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
